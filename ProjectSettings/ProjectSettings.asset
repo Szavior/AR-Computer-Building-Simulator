@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Connor Murdock
+  companyName: Connor Murdock and Szavior McRae
   productName: AR Computer Building App
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -133,13 +133,8 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.0
-  preloadedAssets:
-  - {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874, type: 2}
-  - {fileID: -3756924532493682004, guid: 58f40b12bbc864f3c96c6505a9a1e1e3, type: 2}
-  - {fileID: 11400000, guid: 69a19330a0b21734299a121e70ac5a4a, type: 2}
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
-  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
+  bundleVersion: 1.1
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.ConnorMurdock.ARComputerBuildingApp
+    Android: com.ConnorMurdockandSzaviorMcRae.ARComputerBuildingApp
     Standalone: com.ConnorMurdock.ARComputerBuildingApp
   buildNumber:
     Bratwurst: 0
@@ -839,7 +834,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: com.unity.template.ar
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -847,7 +842,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: com.unity.template.ar
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: AR Computer Building App
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

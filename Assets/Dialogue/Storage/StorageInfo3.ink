@@ -1,7 +1,7 @@
 Good job! You may be wondering, why we installed both a Hard Disk Drive and a Solid-State Drive when they both just store files. #expression:neutral
 This is because it is generally recommended that you have at least one of both in your computer for the best "bang for your buck".
 It is entirely possible to only use one or the other, but having little storage space can be a huge pain, and using an HDD for everything can be very slow.
-This is why I recommend using a smaller SSD for your opertaing system and some applications, and then store the majority of your files on the HDD, which can have more space.
+This is why I recommend using a smaller SSD for your operating system and some applications, and then storing the majority of your files on the HDD, which can have more space.
 Speaking of space, both HDDs and SSDs generally are scaled by storage space in Gigabytes, though it is becoming more common to see hard drives in the Terabyte range.
 For reference, a Gigabyte is over 1 billion bytes, and a Terabyte is over 1 trillion bytes!
 The original Super Mario Brothers game for the NES is only 31 thousand bytes. You can fit over 3,400 copies of the game on only one Gigabyte, and most hard drives are in the hundreds of Gigabytes! #expression:error

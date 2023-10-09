@@ -118,6 +118,23 @@ public class ComputerCaseManager : MonoBehaviour
         Quaternion targetRotation = new Quaternion(-90, placementPose.rotation.y, -90, placementPose.rotation.w);
         computerCase.transform.rotation = placementPose.rotation;
         computerCase.SetActive(true);
+
+        foreach (Transform child in computerCase.transform)
+        {
+            // Check if the child is set to active
+            if (child.gameObject.activeSelf)
+            {
+                // Get the Animator component from the child
+                Animator childAnimator = child.GetComponent<Animator>();
+
+                if (childAnimator != null)
+                {
+                    // Trigger the final animation within the controller
+                    childAnimator.SetBool("InstallPressed", true);
+                }
+            }
+        }
+
         beingPlaced = false;
         isPlacedPressed = false;
         partsMenu.SetActive(true);
